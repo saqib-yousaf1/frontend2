@@ -86,13 +86,21 @@ function App() {
             </div>
           )}
 
-          <button
-            className="button"
-            onClick={handleUpload}
-            disabled={loading}
-          >
-            {loading ? <span className="spinner"></span> : "Upload & Transcribe"}
-          </button>
+         <button
+  className="button"
+  onClick={handleUpload}
+  disabled={loading}
+>
+  {loading ? (
+    <>
+      <span className="spinner"></span>
+      <span> Processing files… please wait </span>
+    </>
+  ) : (
+    "Upload & Transcribe"
+  )}
+</button>
+
 
           {error && <p className="error-text">{error}</p>}
         </div>
