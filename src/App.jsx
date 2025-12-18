@@ -34,7 +34,7 @@ function App() {
 
     try {
       // ✅ Correct endpoint for FastAPI
-      const response = await fetch("https://hafsaabd82-huggingface-space.hf.space/predict", {
+      const response = await fetch("https://hafsaabd82-omnilingual-asr.hf.space/api/predict", {
         method: "POST",
         body: formData,
       });
