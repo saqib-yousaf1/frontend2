@@ -19,6 +19,7 @@
 }
 .header{
   margin-bottom: 2rem;
+  margin-top: 8px;
   background: transparent;
   padding: 1rem 10rem ;
   border-radius: 6px;
