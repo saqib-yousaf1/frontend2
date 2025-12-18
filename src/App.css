@@ -24,6 +24,14 @@
   padding: 0.5rem 10rem ;
   border-radius: 6px;
   border: 2px solid #fdfefe36;
+  overflow: hidden;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3),
+        inset 0 0 30px rgba(100, 80, 200, 0.15),
+        0 0 40px rgba(0, 247, 255, 0.05);
+    transition: all 0.5s ease;
 }
 .title{
   font-size: 2rem;
@@ -52,7 +60,7 @@
 }
 
 .upload-icon {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 .button {
