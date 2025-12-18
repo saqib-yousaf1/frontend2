@@ -85,7 +85,7 @@ function App() {
               ))}
             </div>
           )}
-
+<div className="actions">
          <button
   className="button"
   onClick={handleUpload}
@@ -100,7 +100,7 @@ function App() {
     "Upload & Transcribe"
   )}
 </button>
-
+</div>
 
           {error && <p className="error-text">{error}</p>}
         </div>
