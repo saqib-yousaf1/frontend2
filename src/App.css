@@ -28,7 +28,7 @@ body{
 }
 #root{
   min-height:100vh;
-  position: fixed;
+  position: absolute;
   align-items:center;      /* vertical center */
   justify-content:center;  /* horizontal center */
   padding:10px 0;       /* safe padding, not positioning */
@@ -84,7 +84,7 @@ body{
     var(--shadow),
     0 0 0 1px rgba(255, 255, 255, 0.9) inset;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  margin-bottom: 10px;
+  margin-left: -30px;
   gap: var(--space-lg);
   z-index: 2;
 }
@@ -99,6 +99,7 @@ body{
   box-shadow: 
     0 4px 20px rgba(79, 70, 229, 0.08),
     0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+  margin-bottom: 10px;
 }
 .title{
   text-align: center;
@@ -135,6 +136,7 @@ body{
   box-shadow: 
     0 4px 20px rgba(79, 70, 229, 0.08),
     0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+  margin-bottom: 10px;
 }
 .section-title{
   font-size: 1.25rem;
