@@ -341,7 +341,7 @@ body{
   display: flex;
   align-items: center;
   gap: 8px;
-  min-width: 120px;
+  min-width: 80px;
 }
 .volume-slider {
   flex: 1;
@@ -353,7 +353,7 @@ body{
 }
 .volume-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 14px;
+  width: 8px;
   height: 14px;
   border-radius: 50%;
   background: var(--accent);
@@ -362,7 +362,7 @@ body{
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .volume-slider::-moz-range-thumb {
-  width: 14px;
+  width: 8px;
   height: 14px;
   border-radius: 50%;
   background: var(--accent);
