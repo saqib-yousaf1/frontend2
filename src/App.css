@@ -35,7 +35,7 @@ body{
   display: flex;
 }
 .floating-background {
-  position: relative;
+  position: static;
   top: 0;
   left: 0;
   width: 100%;
@@ -45,7 +45,7 @@ body{
 }
 
 .floating-circle {
-  position: static;
+  position: relative;
   border-radius: 50%;
   background: rgba(136, 189, 168, 0.1);
   animation: float 15s infinite linear;
