@@ -71,7 +71,7 @@ body{
   }
 }
 .container{
-  position: sticky; 
+  position: fixed; 
   width: 800px;
   min-height: min-content;
   max-height: 85vh;
