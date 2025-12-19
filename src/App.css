@@ -23,7 +23,7 @@ body{
   margin:0;
   background: linear-gradient(180deg, var(--bg) 0%, #ffffff 100%);
   color:var(--text);
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-x: hidden;
 }
 #root{
@@ -35,7 +35,7 @@ body{
   display: flex;
 }
 .floating-background {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
