@@ -230,7 +230,7 @@ body{
   padding-right: 4px;
 }
 .file-item{
-  padding: 16px;
+  padding: 5px;
   background: linear-gradient(135deg, 
     rgba(255, 255, 255, 0.95) 0%, 
     rgba(248, 250, 252, 0.98) 100%);
@@ -242,7 +242,7 @@ body{
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 .file-icon {
   font-size: 1.2rem;
@@ -264,7 +264,7 @@ body{
   font-size: 0.8rem;
   color: var(--muted);
   display: flex;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 .file-size {
@@ -282,7 +282,7 @@ body{
   border: 1px solid rgba(79, 70, 229, 0.1);
 }
 .custom-audio-player {
-  width: 100%;
+  width: 80%;
 }
 .audio-controls {
   display: flex;
