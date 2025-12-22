@@ -170,7 +170,7 @@ function Navbar() {
 
   return (
     <>
-      <Box sx={{ flexGrow: 1, mt: 0, width: '100vw', zIndex: 2 }}>
+      <Box sx={{ flexGrow: 1, mt: 0, width: '94vw', zIndex: 2 }}>
         <AppBar 
           position="relative" 
           sx={{ 
