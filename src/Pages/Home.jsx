@@ -677,9 +677,10 @@ function Home() {
                 <Divider sx={{ my: 2, borderColor: 'rgba(11, 17, 24, 0.1)' , mt:-2}} />
                 
                 <Box sx={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                  background: "transparent",
+                  backdropfilter: 'blur(8px)' ,
                   borderRadius: '12px',
-                  p: 3,
+                  p: 8,
                 }}>
                   {Object.entries(results).map(([fileName, transcription], index) => (
                     <Box key={fileName} sx={{ mb: index !== Object.entries(results).length - 1 ? 3 : 0 }}>
@@ -722,6 +723,7 @@ function Home() {
       color: copied ? '#16a34a' : '#4A90E2',
       borderRadius: '100%',
       p: 1,
+      mb: 4,
       '&:hover': {
         backgroundColor: copied
           ? 'rgba(22, 163, 74, 0.12)'
