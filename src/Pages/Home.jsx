@@ -188,7 +188,7 @@ function Home() {
     files.forEach((file) => formData.append("files", file));
 
     try {
-      const response = await fetch("https://hafsaabd82-omnilingual-asr.hf.space/api/predict", {
+      const response = await fetch("https://saqib123dsa-omni.hf.space/api/predict", {
         method: "POST",
         body: formData,
       });
